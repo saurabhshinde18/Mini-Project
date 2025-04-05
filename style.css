@@ -14,7 +14,6 @@ body,html{
     width: 100%;
     padding-top: 1px;
 }
-
 #nav{
     
     border-bottom: 1px solid #000;
@@ -27,6 +26,24 @@ body,html{
     justify-content: space-between;
     
 }
+#nav h2:after{
+    content: "©️";
+    position: absolute;
+    top:8%;
+    left:17%;
+    font-size: 1.3rem;
+}
+#nav h2:before{
+    content: "model management";
+    position: absolute;
+    top:14%;
+    left: 8%;
+    font-weight: 500;
+    font-size: 1rem;
+    color:rgba(52, 51, 51, 0.801);
+    font-family: gilroy;
+    letter-spacing: 0.3px;
+}
 
 #nav h2{
     height: 10vh;
@@ -37,7 +54,7 @@ body,html{
     justify-content: center;
     letter-spacing: -3px;
     font-family: monument;
-    font-weight: 1200;
+    font-weight: 600;
 }
 #nav h3{
     height: 10vh;
@@ -368,3 +385,4 @@ to{
         text-align: center;
 
     }
+    
